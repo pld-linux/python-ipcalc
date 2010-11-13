@@ -3,7 +3,7 @@ Summary:	IP subnet calculator
 Summary(pl.UTF-8):	kalkulator podsieci IP
 Name:		python-%{module}
 Version:	0.1
-Release:	1
+Release:	2
 License:	MIT License
 Group:		Libraries/Python
 Source0:	http://tehmaze.com/asset/code/python/%{module}-%{version}.tar.bz2
