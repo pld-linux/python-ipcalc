@@ -29,12 +29,11 @@ zarówno dla IPv4 jak i IPv6.
 %setup -q -n %{module}-%{version}
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--optimize=2 \
+%py_install \
 	--root $RPM_BUILD_ROOT
 
 %py_postclean
