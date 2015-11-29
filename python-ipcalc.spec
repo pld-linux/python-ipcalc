@@ -12,7 +12,7 @@ URL:		http://tehmaze.com/code/python/ipcalc/
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.174
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
